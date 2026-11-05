@@ -115,6 +115,7 @@
         --font-size-200: 1rem;
         --font-size-250: 1.25rem;
         --font-size-350: 1.75rem;
+        --font-size-450: 2.25rem;
         --font-size-500: 2.5rem;
 
         --font-weight-regular: 400;
@@ -141,6 +142,66 @@
     /* Semantic Properties */
     :root {
 
+        --color-bg-body: var(--color-stone-100);
+        --color-bg-card: var(--color-white);
+        --color-bg-card-highlight: var(--color-rose-50);
+
+        --color-text-heading: var(--color-stone-900);
+        --color-text-heading-section: var(--color-brown-800);
+        --color-text-heading-highlight: var(--color-rose-800);
+
+        --color-text-base: var(--color-stone-600);
+        --color-text-base-emphasis: var(--color-brown-800);
+
+        --color-divider: var(--color-stone-150);
+
+        --font-family-heading: var(--font-family-young-serif);
+        --font-family-heading-highlight: var(--font-family-outfit);
+        --font-family-base: var(--font-family-outfit);
+
+        --font-size-heading: var(--font-size-450);
+        --font-size-heading-section: var(--font-size-350);
+        --font-size-heading-highlight: var(--font-size-250);
+
+        --font-size-base: var(--font-size-200);
+        --font-size-base-emphasis: var(--font-size-200);
+
+        --font-weight-heading: var(--font-weight-regular);
+        --font-weight-heading-highlight: var(--font-weight-semibold);
+        --font-weight-base: var(--font-weight-regular);
+        --font-weight-base-emphasis: var(--font-weight-bold);
+
+        --line-height-heading: var(--line-height-tight);
+        --line-height-base: var(--line-height-relaxed);
+
+        --border-radius-card: 0;
+        --border-radius-image: 0;
+        --border-radius-card-highlight: var(--border-radius-150);
+
+        --space-body-padding-block: 0;
+        --space-card-padding: 0;
+        --space-card-content-padding-inline: var(--space-400);
+        --space-card-content-padding-block: var(--space-500);
+        --space-card-gap: var(--space-500);
+        --space-card-section-margin-block: var(--space-400);
+        --space-card-heading-margin-block-end: var(--space-300);
+        --space-card-table-margin-block: var(--space-150);
+        --space-card-list-padding-inline: var(--space-200);
+        --space-card-highlight-padding: var(--space-200);
+
+        @media (width > 31.25em) {
+            --font-size-heading: var(--font-size-500);
+
+            --border-radius-card: var(--border-radius-300);
+            --border-radius-image: var(--border-radius-150);
+
+            --space-body-padding-block: var(--space-1600);
+            --space-card-padding: var(--space-500);
+
+            --space-card-content-padding-inline: 0;
+            --space-card-content-padding-block: 0;
+
+        }
     }
 }
 
