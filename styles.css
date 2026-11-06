@@ -182,12 +182,6 @@
         --space-card-padding: 0;
         --space-card-content-padding-inline: var(--space-400);
         --space-card-content-padding-block: var(--space-500);
-        --space-card-gap: var(--space-500);
-        --space-card-section-margin-block: var(--space-400);
-        --space-card-heading-margin-block-end: var(--space-300);
-        --space-card-table-margin-block: var(--space-150);
-        --space-card-list-padding-inline: var(--space-200);
-        --space-card-highlight-padding: var(--space-200);
 
         @media (width > 31.25em) {
             --font-size-heading: var(--font-size-500);
