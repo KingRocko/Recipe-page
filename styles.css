@@ -190,7 +190,7 @@
         --space-card-content-padding-inline: var(--space-400);
         --space-card-content-padding-block: var(--space-500);
 
-        @media (width > 35em) {
+        @media (width > 37.5em) {
             --font-size-heading: var(--font-size-500);
 
             --border-radius-card: var(--border-radius-300);
