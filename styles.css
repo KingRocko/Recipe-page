@@ -306,11 +306,13 @@
         border-bottom: 1px solid var(--color-table-row-divider);
     }
 
-    td {
+    th, td {
         padding-block: var(--space-150);
     }
 
-    td:first-child {
+    th {
+        text-align: left;
+        font-weight: var(--font-weight-regular);
         padding-inline-start: var(--space-400);
     }
 
